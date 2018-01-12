@@ -1,41 +1,52 @@
-# the-controller-mixins@1.0.0
+# the-controller-mixins@1.0.1
 
 Mixins for the-controller
 
 + Functions
-  + [create(args)](#the-controller-mixins-function-create)
-+ [`TheControllerMixins`](#the-controller-mixins-classes) Class
-  + [new TheControllerMixins()](#the-controller-mixins-classes-the-controller-mixins-constructor)
+  + [compose(mixins)](#the-controller-mixins-function-compose)
+  + [withAuthorized()](#the-controller-mixins-function-with-authorized)
+  + [withClient()](#the-controller-mixins-function-with-client)
+  + [withDebug()](#the-controller-mixins-function-with-debug)
+  + [withListen()](#the-controller-mixins-function-with-listen)
+  + [withSeal()](#the-controller-mixins-function-with-seal)
 
 ## Functions
 
-<a class='md-heading-link' name="the-controller-mixins-function-create" ></a>
+<a class='md-heading-link' name="the-controller-mixins-function-compose" ></a>
 
-### create(args) -> `TheControllerMixins`
+### compose(mixins) -> `function`
 
-Create a TheControllerMixins instance
+Compose multiple mixins into one
 
 | Param | Type | Description |
 | ----- | --- | -------- |
-| args | * |  |
+| mixins | function |  |
 
+<a class='md-heading-link' name="the-controller-mixins-function-with-authorized" ></a>
 
+### withAuthorized()
 
-<a class='md-heading-link' name="the-controller-mixins-classes"></a>
+Wrap controller with seal
+<a class='md-heading-link' name="the-controller-mixins-function-with-client" ></a>
 
-## `TheControllerMixins` Class
+### withClient()
 
+Wrap controller with client
+<a class='md-heading-link' name="the-controller-mixins-function-with-debug" ></a>
 
+### withDebug()
 
+Wrap controller with debug
+<a class='md-heading-link' name="the-controller-mixins-function-with-listen" ></a>
 
+### withListen()
 
+Wrap controller
+<a class='md-heading-link' name="the-controller-mixins-function-with-seal" ></a>
 
-<a class='md-heading-link' name="the-controller-mixins-classes-the-controller-mixins-constructor" ></a>
+### withSeal()
 
-### new TheControllerMixins()
-
-Constructor of TheControllerMixins class
-
+Wrap controller with seal
 
 
 

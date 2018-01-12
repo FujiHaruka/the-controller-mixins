@@ -78,7 +78,9 @@ const {TheCtrl} = require('the-controller-base')
 const {withAuthorized} = require('the-controller-mixins')
 
 async function tryExample () {
-
+  class MyCtrl extends withAuthorized(TheCtrl) {
+    /* ... */
+  }
 }
 
 tryExample().catch((err) => console.error(err))
@@ -95,9 +97,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-controller-mixins@1.0.0](./doc/api/api.md)
-  + [create(args)](./doc/api/api.md#the-controller-mixins-function-create)
-  + [TheControllerMixins](./doc/api/api.md#the-controller-mixins-class)
++ [the-controller-mixins@1.0.1](./doc/api/api.md)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->
