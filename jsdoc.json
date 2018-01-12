@@ -1,0 +1,76 @@
+{
+    "functions": [
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a TheControllerMixins instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "TheControllerMixins",
+                "description": ""
+            }
+        },
+        {
+            "name": "create",
+            "access": "",
+            "virtual": false,
+            "description": "Create a TheControllerMixins instance",
+            "parameters": [
+                {
+                    "name": "args",
+                    "type": "*",
+                    "description": "",
+                    "default": "",
+                    "optional": "",
+                    "nullable": ""
+                }
+            ],
+            "examples": [],
+            "returns": {
+                "type": "TheControllerMixins",
+                "description": ""
+            }
+        }
+    ],
+    "classes": [
+        {
+            "name": "TheControllerMixins",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheControllerMixins",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        },
+        {
+            "name": "TheControllerMixins",
+            "description": "",
+            "extends": [],
+            "access": "",
+            "virtual": false,
+            "fires": "",
+            "constructor": {
+                "name": "TheControllerMixins",
+                "description": "",
+                "parameters": [],
+                "examples": []
+            }
+        }
+    ]
+}
