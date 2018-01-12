@@ -1,6 +1,6 @@
 {
   "name": "the-controller-mixins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mixins for the-controller",
   "main": "lib",
   "browser": "shim",

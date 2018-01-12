@@ -1,6 +1,7 @@
 'use strict'
 
-const theControllerMixins = require('the-controller-mixins')
+const {TheCtrl} = require('the-controller-base')
+const {withAuthorized} = require('the-controller-mixins')
 
 async function tryExample () {
 

@@ -1,14 +1,14 @@
 {
     "functions": [
         {
-            "name": "create",
+            "name": "compose",
             "access": "",
             "virtual": false,
-            "description": "Create a TheControllerMixins instance",
+            "description": "Compose multiple mixins into one",
             "parameters": [
                 {
-                    "name": "args",
-                    "type": "*",
+                    "name": "mixins",
+                    "type": "function",
                     "description": "",
                     "default": "",
                     "optional": "",
@@ -17,19 +17,59 @@
             ],
             "examples": [],
             "returns": {
-                "type": "TheControllerMixins",
-                "description": ""
+                "type": "function",
+                "description": "Composed mixin"
             }
         },
         {
-            "name": "create",
+            "name": "withAuthorized",
             "access": "",
             "virtual": false,
-            "description": "Create a TheControllerMixins instance",
+            "description": "Wrap controller with seal",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "withClient",
+            "access": "",
+            "virtual": false,
+            "description": "Wrap controller with client",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "withDebug",
+            "access": "",
+            "virtual": false,
+            "description": "Wrap controller with debug",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "withListen",
+            "access": "",
+            "virtual": false,
+            "description": "Wrap controller",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "withSeal",
+            "access": "",
+            "virtual": false,
+            "description": "Wrap controller with seal",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "compose",
+            "access": "",
+            "virtual": false,
+            "description": "Compose multiple mixins into one",
             "parameters": [
                 {
-                    "name": "args",
-                    "type": "*",
+                    "name": "mixins",
+                    "type": "function",
                     "description": "",
                     "default": "",
                     "optional": "",
@@ -38,39 +78,49 @@
             ],
             "examples": [],
             "returns": {
-                "type": "TheControllerMixins",
-                "description": ""
-            }
-        }
-    ],
-    "classes": [
-        {
-            "name": "TheControllerMixins",
-            "description": "",
-            "extends": [],
-            "access": "",
-            "virtual": false,
-            "fires": "",
-            "constructor": {
-                "name": "TheControllerMixins",
-                "description": "",
-                "parameters": [],
-                "examples": []
+                "type": "function",
+                "description": "Composed mixin"
             }
         },
         {
-            "name": "TheControllerMixins",
-            "description": "",
-            "extends": [],
+            "name": "withAuthorized",
             "access": "",
             "virtual": false,
-            "fires": "",
-            "constructor": {
-                "name": "TheControllerMixins",
-                "description": "",
-                "parameters": [],
-                "examples": []
-            }
+            "description": "Wrap controller with seal",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "withClient",
+            "access": "",
+            "virtual": false,
+            "description": "Wrap controller with client",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "withDebug",
+            "access": "",
+            "virtual": false,
+            "description": "Wrap controller with debug",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "withListen",
+            "access": "",
+            "virtual": false,
+            "description": "Wrap controller",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "withSeal",
+            "access": "",
+            "virtual": false,
+            "description": "Wrap controller with seal",
+            "parameters": [],
+            "examples": []
         }
     ]
 }
