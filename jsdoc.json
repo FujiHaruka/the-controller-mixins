@@ -83,6 +83,14 @@
             }
         },
         {
+            "name": "getAllPropertyDescriptors",
+            "access": "",
+            "virtual": false,
+            "description": "",
+            "parameters": [],
+            "examples": []
+        },
+        {
             "name": "withAuthorized",
             "access": "",
             "virtual": false,
