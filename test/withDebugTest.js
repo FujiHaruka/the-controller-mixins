@@ -15,8 +15,10 @@ describe('with-debug', () => {
   })
 
   it('Do test', () => {
-    const Foo = withDebug(
-      class FooImpl {
+    const Foo =
+      class FooImpl extends withDebug(class {
+        getBar () {}
+      }) {
         doSomething () {
           return {
             obj: {a: {b: {c: {d: 1}}}},
@@ -25,15 +27,16 @@ describe('with-debug', () => {
         }
 
         get hoge () {
-          console.log('dynamic getter')
+          console.log('dynamic getter hoge called')
+          return 'hoge'
         }
       }
-    )
     const foo = new Foo()
     foo._debug.enabled = true
     ok(foo.doSomething('foo', 'bar', 'baz'))
     equal(foo.doSomething.name, 'debugProxy')
     equal(foo.doSomething.original.name, 'doSomething')
+    equal(foo.hoge, 'hoge')
   })
 })
 
