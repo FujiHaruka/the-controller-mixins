@@ -1,4 +1,4 @@
-# the-controller-mixins@1.1.0
+# the-controller-mixins@1.1.1
 
 Mixins for the-controller
 
@@ -9,6 +9,7 @@ Mixins for the-controller
   + [withDebug()](#the-controller-mixins-function-with-debug)
   + [withListen()](#the-controller-mixins-function-with-listen)
   + [withSeal()](#the-controller-mixins-function-with-seal)
+  + [getAllPropertyDescriptors()](#the-controller-mixins-function-get-all-property-descriptors)
 
 ## Functions
 
@@ -47,6 +48,11 @@ Wrap controller
 ### withSeal()
 
 Wrap controller with seal
+<a class='md-heading-link' name="the-controller-mixins-function-get-all-property-descriptors" ></a>
+
+### getAllPropertyDescriptors()
+
+
 
 
 
