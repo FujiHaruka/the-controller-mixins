@@ -1,4 +1,4 @@
-# the-controller-mixins@1.1.1
+# the-controller-mixins@1.1.2
 
 Mixins for the-controller
 
@@ -8,6 +8,7 @@ Mixins for the-controller
   + [withClient()](#the-controller-mixins-function-with-client)
   + [withDebug()](#the-controller-mixins-function-with-debug)
   + [withListen()](#the-controller-mixins-function-with-listen)
+  + [withPreference()](#the-controller-mixins-function-with-preference)
   + [withSeal()](#the-controller-mixins-function-with-seal)
   + [getAllPropertyDescriptors()](#the-controller-mixins-function-get-all-property-descriptors)
 
@@ -41,6 +42,11 @@ Wrap controller with debug
 <a class='md-heading-link' name="the-controller-mixins-function-with-listen" ></a>
 
 ### withListen()
+
+Wrap controller
+<a class='md-heading-link' name="the-controller-mixins-function-with-preference" ></a>
+
+### withPreference()
 
 Wrap controller
 <a class='md-heading-link' name="the-controller-mixins-function-with-seal" ></a>

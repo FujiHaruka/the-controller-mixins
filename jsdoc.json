@@ -54,6 +54,14 @@
             "examples": []
         },
         {
+            "name": "withPreference",
+            "access": "",
+            "virtual": false,
+            "description": "Wrap controller",
+            "parameters": [],
+            "examples": []
+        },
+        {
             "name": "withSeal",
             "access": "",
             "virtual": false,
@@ -116,6 +124,14 @@
         },
         {
             "name": "withListen",
+            "access": "",
+            "virtual": false,
+            "description": "Wrap controller",
+            "parameters": [],
+            "examples": []
+        },
+        {
+            "name": "withPreference",
             "access": "",
             "virtual": false,
             "description": "Wrap controller",
