@@ -1,4 +1,4 @@
-# the-controller-mixins@1.1.4
+# the-controller-mixins@1.1.5
 
 Mixins for the-controller
 
