@@ -26,6 +26,10 @@ describe('with-debug', () => {
           }
         }
 
+        controllerWillAttach () {
+
+        }
+
         get hoge () {
           console.log('dynamic getter hoge called')
           return 'hoge'
@@ -33,6 +37,7 @@ describe('with-debug', () => {
       }
     const foo = new Foo()
     foo._debug.enabled = true
+    foo.controllerWillAttach()
     ok(foo.doSomething('foo', 'bar', 'baz'))
     equal(foo.doSomething.name, 'debugProxy')
     equal(foo.doSomething.original.name, 'doSomething')
