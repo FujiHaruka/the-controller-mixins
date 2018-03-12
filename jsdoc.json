@@ -99,6 +99,14 @@
             "examples": []
         },
         {
+            "name": "instanceMethodNamesFor",
+            "access": "",
+            "virtual": false,
+            "description": "",
+            "parameters": [],
+            "examples": []
+        },
+        {
             "name": "withAuthorized",
             "access": "",
             "virtual": false,
