@@ -1,4 +1,4 @@
-# the-controller-mixins@1.1.6
+# the-controller-mixins@1.1.7
 
 Mixins for the-controller
 
@@ -11,6 +11,7 @@ Mixins for the-controller
   + [withPreference()](#the-controller-mixins-function-with-preference)
   + [withSeal()](#the-controller-mixins-function-with-seal)
   + [getAllPropertyDescriptors()](#the-controller-mixins-function-get-all-property-descriptors)
+  + [instanceMethodNamesFor()](#the-controller-mixins-function-instance-method-names-for)
 
 ## Functions
 
@@ -57,6 +58,11 @@ Wrap controller with seal
 <a class='md-heading-link' name="the-controller-mixins-function-get-all-property-descriptors" ></a>
 
 ### getAllPropertyDescriptors()
+
+
+<a class='md-heading-link' name="the-controller-mixins-function-instance-method-names-for" ></a>
+
+### instanceMethodNamesFor()
 
 
 
