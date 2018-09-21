@@ -84,6 +84,14 @@
             "description": "",
             "parameters": [],
             "examples": []
+        },
+        {
+            "name": "omitLongString",
+            "access": "",
+            "virtual": false,
+            "description": "",
+            "parameters": [],
+            "examples": []
         }
     ]
 }
